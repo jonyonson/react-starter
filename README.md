@@ -1,3 +1,5 @@
+This project was bundled with [Parcel](https://parceljs.org).
+
 ## Available Scripts
 
 In the project directory, you can run:
