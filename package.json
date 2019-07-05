@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-starter",
   "version": "1.0.0",
-  "description": "react app",
+  "description": "",
   "main": "src/app.js",
   "dependencies": {
     "react": "^16.8.6",
