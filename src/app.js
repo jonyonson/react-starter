@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const App = () => {
-  return (
-    <React.StrictMode>
-      <div>
-        <h1>Hello World</h1>
-      </div>
-    </React.StrictMode>
-  );
-};
+import 'sanitize.css/sanitize.css';
+import App from './components/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
