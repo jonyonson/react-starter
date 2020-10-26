@@ -1,46 +1,15 @@
 {
-  "name": "react-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/app.js",
   "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "sanitize.css": "^12.0.0",
-    "styled-components": "^5.0.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.12.3",
-    "@babel/plugin-proposal-class-properties": "7.12.1",
-    "@babel/preset-env": "7.12.1",
-    "@babel/preset-react": "7.12.1",
-    "babel-eslint": "10.1.0",
-    "eslint": "7.12.0",
-    "eslint-config-prettier": "6.12.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "7.21.3",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "parcel-bundler": "1.12.4",
-    "prettier": "2.1.2"
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-    "clear-build-cache": "rm -rf .cache/ dist/",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jonathan Taylor <taylor.jonathan.craig@gmail.com>",
-  "license": "MIT",
-  "browserslist": [
-    "last 2 Chrome versions",
-    "last 2 ChromeAndroid versions",
-    "last 2 Firefox versions",
-    "last 2 FirefoxAndroid versions",
-    "last 2 Safari versions",
-    "last 2 iOS versions",
-    "last 2 Edge versions",
-    "last 2 Opera versions",
-    "last 2 OperaMobile versions"
-  ]
+    "start": "parcel index.html"
+  }
 }
